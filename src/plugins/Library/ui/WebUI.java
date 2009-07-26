@@ -21,9 +21,9 @@ import java.util.Set;
 import java.util.SortedMap;
 import java.util.TreeMap;
 import plugins.Library.Main;
-import plugins.Library.index.Index;
+import plugins.Library.api.Index;
 import plugins.Library.Library;
-import plugins.Library.util.Request;
+import plugins.Library.api.Request;
 import plugins.Library.search.Search;
 import plugins.Library.util.URIWrapper;
 

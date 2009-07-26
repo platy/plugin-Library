@@ -17,7 +17,7 @@ import freenet.support.Logger;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
-import plugins.Library.util.Request.RequestStatus;
+import plugins.Library.api.Request.RequestStatus;
 import plugins.Library.util.URIWrapper;
 
 /**

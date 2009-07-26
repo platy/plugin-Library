@@ -40,9 +40,9 @@ import java.net.MalformedURLException;
 
 import java.util.HashMap;
 import plugins.Library.Library;
-import plugins.Library.index.Index;
-import plugins.Library.util.InvalidSearchException;
-import plugins.Library.util.Request;
+import plugins.Library.api.Index;
+import plugins.Library.api.InvalidSearchException;
+import plugins.Library.api.Request;
 
 
 /**

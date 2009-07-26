@@ -5,7 +5,7 @@ package plugins.Library.index.xml;
 
 import java.util.List;
 import plugins.Library.util.AbstractRequest;
-import plugins.Library.util.Request;
+import plugins.Library.api.Request;
 
 
 /**

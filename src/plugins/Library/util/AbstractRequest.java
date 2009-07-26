@@ -1,6 +1,7 @@
 
 package plugins.Library.util;
 
+import plugins.Library.api.Request;
 import java.util.List;
 
 /**

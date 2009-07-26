@@ -3,9 +3,9 @@
  * http://www.gnu.org/ for further details of the GPL. */
 package plugins.Library.search;
 
-import plugins.Library.util.Request;
+import plugins.Library.api.Request;
 import plugins.Library.util.URIWrapper;
-import plugins.Library.util.InvalidSearchException;
+import plugins.Library.api.InvalidSearchException;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.HashMap;

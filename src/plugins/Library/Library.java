@@ -4,10 +4,13 @@
 
 package plugins.Library;
 
+import plugins.Library.api.WriteableIndex;
+import plugins.Library.api.Index;
+import plugins.Library.api.LibraryAPI1;
 import plugins.Library.index.*;
 import freenet.pluginmanager.PluginRespirator;
-import plugins.Library.util.Request;
-import plugins.Library.util.InvalidSearchException;
+import plugins.Library.api.Request;
+import plugins.Library.api.InvalidSearchException;
 import freenet.support.Logger;
 import java.security.MessageDigest;
 import java.util.ArrayList;
@@ -20,7 +23,7 @@ import plugins.Library.index.xml.XMLIndex;
  * Library class is the api for others to use search facilities, it is used by the interfaces
  * @author MikeB
  */
-public class Library {
+public class Library implements LibraryAPI1 {
 
 	public static final String DEFAULT_INDEX_SITE = "bookmark:freenetindex";
 	private static int version = 1;
